@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
-class Solution { 
+class Solution {
 public:
     int maxArea(vector<int>& height) {
         int left = 0;
@@ -23,12 +19,3 @@ public:
         return maxArea;
     }
 };
-
-int main() {
-    Solution obj;
-    vector<int> height = {1,8,6,2,5,4,8,3,7};
-
-    cout << "Max Area: " << obj.maxArea(height) << endl;
-
-    return 0;
-}
